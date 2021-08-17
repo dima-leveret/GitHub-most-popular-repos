@@ -1,0 +1,35 @@
+.repo {
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+    border: solid 2px lightgrey;
+    border-radius: 25px;
+    flex-direction: column;
+
+    &-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        
+        &-name{
+            font-size: 1.2em;
+            font-weight: 500;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            a {
+                text-decoration: none;
+                color: black;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+        }
+
+        &-avatar {
+            width: 30px;
+            margin-right: 5px;
+        }
+    }
+}
+
+
